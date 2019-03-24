@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.practice.olegtojgildin.animationpractice.MainActivity">
+
+    <Button
+        android:id="@+id/AnimationDrawableButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animation Drawable" />
+
+    <Button
+        android:id="@+id/AnimationBaseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Base Animation" />
+
+    <Button
+        android:id="@+id/AnimationCodeBaseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Base Code Animation" />
+    <Button
+        android:id="@+id/InterpolatorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interpolator Animation" />
+    <Button
+        android:id="@+id/TransitionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transition Animation" />
+</LinearLayout>
